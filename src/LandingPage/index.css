@@ -1,0 +1,12 @@
+.multimedia_image{
+    background-image: url(/home/studen/Documents/MultiMediaWebsite/Jade_Multimedia_App/public/Image/MultiMedia.jpg);
+    height: 690px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 1920px;
+}
+
+.StartButton{
+    background-color: yellow;
+    border-radius: 30px;
+}

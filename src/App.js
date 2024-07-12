@@ -1,3 +1,19 @@
+
+import './App.css';
+import LandingPage from './LandingPage';
+
+import Video from "./videos"; 
+
+  const App = () =>{
+
+
+import Portfolio from "./Portfolio";
+import "./index.css";
+function App() {
+  return (
+    <div className='App'>
+     <Portfolio/>
+
 import React from 'react';
 import './App.css';
 import Navbar from './Navbar';
@@ -15,6 +31,7 @@ function App() {
     <div>
       <Navbar/>
       <LandingPage/>
+     
       <HomePage/>
       <Blog />
       <Portfolio/>
@@ -27,4 +44,13 @@ function App() {
 }
 
 
+    return(
+       
+   <div>
+  <Video/>
+    </div>
+    
+    )
+    
+    }
     export default App

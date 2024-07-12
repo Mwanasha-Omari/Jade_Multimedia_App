@@ -2,6 +2,7 @@ import './index.css'
 const LandingPage= ()=>{
     return(
         <div>
+            <body>
             <div className='Contour_Action'>
           <h1>Welcome To 
             Our Web
@@ -12,9 +13,9 @@ const LandingPage= ()=>{
       
 
         </div>
-        <div>
-   <img className ='multimedia_image'src="/Image/MultiMedia.jpg" alt="logo"/>
+        <div className='multimedia_image'>
         </div>
+        </body>
        
         </div>
     )

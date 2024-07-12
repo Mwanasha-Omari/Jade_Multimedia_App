@@ -1,0 +1,53 @@
+.video-one{
+    border: solid 1px;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: 
+    rgba(243, 183, 8, 1);
+}
+.dev-features{
+    border: solid 1px;
+    width: 300px;
+    height: 150px;
+    margin-top: 3%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 1);
+}
+.use-case{
+    border: solid 1px;
+    width: 300px;
+    height: 150px;
+    margin-top: 3%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 1);
+}
+.positives{
+    border: solid 1px;
+    width: 300px;
+    height: 150px;
+    margin-top: 3%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 1);
+}
+.video-three{
+    border: solid 1px;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: 
+    rgba(243, 183, 8, 1);
+}
+.all{
+    display: flex;
+   gap: 200px;
+    padding: 85px;
+    margin-top: 5%;
+}
+.icon{
+    padding: 70px;
+}
+.icon-t{
+    padding: 100px;
+    margin-top: 120px;
+}

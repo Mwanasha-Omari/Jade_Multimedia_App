@@ -6,6 +6,7 @@ import LandingPage from './LandingPage';
 import HomePage from './HomePage';
 
 import Blog from './Blog/blog';
+import Portfolio from './Portfolio';
 function App() {
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
       <LandingPage/>
       <HomePage/>
       <Blog />
+      <Portfolio/>
 
     </div>
   );

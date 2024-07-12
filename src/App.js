@@ -1,3 +1,5 @@
+import './App.css';
+import LandingPage from './LandingPage';
 
 import Video from "./videos"; 
 
@@ -24,6 +26,7 @@ function App() {
     <div>
       <Navbar/>
       <LandingPage/>
+     
       <HomePage/>
       <Blog />
       <Portfolio/>
@@ -33,10 +36,8 @@ function App() {
   );
 }
 
-
     return(
-    
-   
+       
    <div>
   <Video/>
     </div>

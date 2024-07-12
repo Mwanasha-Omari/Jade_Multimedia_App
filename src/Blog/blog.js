@@ -8,6 +8,7 @@ const Blog = () => {
   return (
     <div id="blog" className="blog-section">
       <h2>Our Blog</h2>
+      <div className='blog-container'>
       
         <div className="blog-content">
          <h3>Born a Crime by Trevor Noah</h3>
@@ -26,7 +27,8 @@ const Blog = () => {
              the Umuhinzi Web App and the Umuhinzi Mobile App, which will be utilized by manufacturers and farmers, respectively.
         <a href="https://drive.google.com/drive/folders/1MQSQCdS5vvDWiUM-6VjGRU4ca7hbf34R?usp=sharing" target="_blank" rel="noopener noreferrer">View more</a>
          </p>
-</div>
+       </div>
+       </div>
       </div>
     
   );

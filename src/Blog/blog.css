@@ -1,15 +1,17 @@
+
 .blog-section {
     padding: 20px;
     background-color: #f4f4f4; 
     border-radius: 8px; 
-    max-width: 600px; 
+    max-width: 1200px; 
     margin: auto; 
-    box-shadow: 2 4px 8px rgba(0, 0, 0, 0.1); 
-    /* display: flex; */
-    /* gap: 20%;  */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column; 
+    gap: 60px; 
   }
   
-  
+ 
   .blog-section h2 {
     font-size: 2rem;
     color: #333; 
@@ -18,12 +20,23 @@
   }
   
   
+  .blog-container {
+    display: flex;
+    gap: 20px; 
+    flex-wrap: wrap; 
+  }
+  
+ 
   .blog-content, .case-studies {
-    margin-bottom: 20px; 
-    padding: 15px;
+    flex: 1; 
+    min-width: 300px; 
+    max-width: 1000px;
+    margin: 0; 
+    padding: 20px; 
     background-color: #fff; 
     border-radius: 5px; 
     border: 1px solid #ddd; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
   }
   
   
@@ -33,7 +46,7 @@
     margin-bottom: 10px;
   }
   
-  
+ 
   .blog-content p, .case-studies p {
     font-size: 1rem;
     color: #555; 

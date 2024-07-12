@@ -1,0 +1,11 @@
+.Contour_Action{
+    position: absolute;
+    margin-left: 100px;
+}
+.multimedia_image{
+    position: relative
+}
+.StartButton{
+    background-color: yellow;
+    border-radius: 30px;
+}

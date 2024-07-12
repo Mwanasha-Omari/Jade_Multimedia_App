@@ -1,3 +1,4 @@
+import './index.css'
 const LandingPage= ()=>{
     return(
         <div>
@@ -5,15 +6,16 @@ const LandingPage= ()=>{
           <h1>Welcome To 
             Our Web
           </h1>
-            <div className='StartButton'>
-                <button>Start_Button</button>
+            <div>
+                <button className='StartButton'>Start_Button</button>
             </div>
       
 
         </div>
         <div>
- {/* <img src={Multimedia_Pic} alt="Multimedia Pic"/>  */}
+   <img className ='multimedia_image'src="/Image/MultiMedia.jpg" alt="logo"/>
         </div>
+       
         </div>
     )
 }

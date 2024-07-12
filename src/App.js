@@ -1,4 +1,9 @@
 
+import Video from "./videos"; 
+
+  const App = () =>{
+
+
 import Portfolio from "./Portfolio";
 import "./index.css";
 function App() {
@@ -28,4 +33,15 @@ function App() {
   );
 }
 
-export default App;
+
+    return(
+    
+   
+   <div>
+  <Video/>
+    </div>
+    
+    )
+    
+    }
+    export default App

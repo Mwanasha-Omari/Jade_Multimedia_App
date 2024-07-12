@@ -1,14 +1,19 @@
-import './App.css';
-import HomePage from './HomePage';
-import LandingPage from './LandingPage';
-import Navbar from './Navbar';
 
+import React from 'react';
+import './App.css';
+import Navbar from './Navbar';
+import LandingPage from './LandingPage';
+import HomePage from './HomePage';
+
+import Blog from './Blog/blog';
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar/>
       <LandingPage/>
       <HomePage/>
+      <Blog />
+
     </div>
   );
 }

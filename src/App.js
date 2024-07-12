@@ -1,4 +1,11 @@
 
+import Portfolio from "./Portfolio";
+import "./index.css";
+function App() {
+  return (
+    <div className='App'>
+     <Portfolio/>
+
 import React from 'react';
 import './App.css';
 import Navbar from './Navbar';
@@ -15,6 +22,7 @@ function App() {
       <HomePage/>
       <Blog />
       <Portfolio/>
+
 
     </div>
   );

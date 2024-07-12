@@ -1,9 +1,9 @@
-import Portfolio from "./Portfolio";
+import Podcast from "./Podcast";
 import "./index.css";
 function App() {
   return (
     <div className='App'>
-     <Portfolio/>
+     <Podcast/>
     </div>
   );
 }

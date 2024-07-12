@@ -1,6 +1,6 @@
 import './index.css';
 
-const Portfolio = () => {
+const Podcast = () => {
   const handleViewMoreClick = () => {
     // Replace 'lorenipsum' with the actual link you want to navigate to
     window.location.href = '/home/studen/Multimedia_App/src/More';
@@ -66,4 +66,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Podcast;
